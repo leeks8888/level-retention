@@ -62,7 +62,7 @@ def analyze_level_churn(data_path):
 # 사용 예시
 if __name__ == "__main__":
     # CSV 파일 경로
-    file_path = "game_data.csv"
+    file_path = "playlog.csv"
     
     try:
         results = analyze_level_churn(file_path)
